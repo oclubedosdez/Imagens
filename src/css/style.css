@@ -13,8 +13,15 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     margin: 20px;
-    width: 96%;
+    width: 32%;
     height: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Oswald;
+    border-radius: 5px;
 }
  .img-css {
     width: 100px;
