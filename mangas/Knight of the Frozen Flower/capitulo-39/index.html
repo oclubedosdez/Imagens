@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://github.com/oclubedosdez.png" type="image/x-icon">
+    <title>Capitulo-39</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .paginas {
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 90vw;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .paginas img {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            cursor: pointer;
+            transition: 1s;
+        }
+
+        .paginas img:hover {
+            filter: blur(70%);
+            filter: brightness(70%);
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="paginas">
+    </div>
+
+    <script>
+        const paginas = document.querySelector('.paginas')
+
+        var diretorio = './imgs/'
+
+        var array_imagens = [];
+
+        for (let i = 0; i < 60; i++) {
+            array_imagens.push(`${diretorio}${i < 10 ? "0" : ""}${i}.jpg`);
+        }
+
+    
+
+        function adicionarImagem(src) {
+            var img = new Image();
+            img.src = src;
+
+            img.onload = function () {
+                paginas.appendChild(img);
+                carregarProximaImagem();
+            };
+            img.onerror = function () {
+                //A imagem não carregou com sucesso, não faz nada
+                carregarProximaImagem()
+            };
+        }
+
+        function carregarProximaImagem() {
+            if (array_imagens.length > 0) {
+                adicionarImagem(array_imagens.shift()); //Remove a primeira imagen da lista e a carrega
+            }
+        }
+
+        
+        carregarProximaImagem()
+        
+
+    </script>
+</body>
+
+</html>
