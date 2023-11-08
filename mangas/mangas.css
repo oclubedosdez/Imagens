@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(21, 21, 21);
+}
+.container {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    width: 210px;
+    height: 200px;
+}
+
+.box img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 5px 10px 10px rgb(255, 255, 255);
+    transition: 1s;
+}
+.box img:hover{
+    filter: brightness(120%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.titulo {
+    width: 200px;
+    text-align: center;
+    font-family: Oswald;
+    line-height: 20px;
+    font-size: 20px;
+}
+.titulo span {
+    text-shadow: 5px 5px 1px black;
+}
