@@ -2,7 +2,7 @@ var Manga = document.querySelector('.container')
 
 let mangas = [
     {
-        'pasta' : 'Ano Oni Kyoushi ga Boku no Ane ni Narundesuka',
+        'pasta' : 'Ano Oni Kyoshi ga Boku no Ane ni Narundesuka',
         'nome' : 'Ano Oni Kyoushi ga Boku no Ane ni Narundesuka',
     },
     {
