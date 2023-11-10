@@ -30,10 +30,6 @@ let mangas = [
         'nome' : 'Knight of the Frozen Flower',
     },
     {
-        'pasta' : 'My Childhood Friend Became an Obsessive Male Lead',
-        'nome' : 'My Childhood Friend Became an Obsessive Male Lead',
-    },
-    {
         'pasta' : 'A Proprietária Bebê Está se Aposentando',
         'nome' : 'A Proprietária Bebê Está se Aposentando',
     },
