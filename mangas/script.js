@@ -45,6 +45,10 @@ let mangas = [
         'pasta' : 'Bon Appétit!',
         'nome' : 'Bon Appétit!',
     },
+    {
+        'pasta' : 'My Childhood Friend Became an Obsessive Male Lead',
+        'nome' : 'My Childhood Friend Became an Obsessive Male Lead',
+    },
 ];
 
  mangas.forEach((manga) => {
