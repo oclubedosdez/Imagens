@@ -53,6 +53,10 @@ let mangas = [
         'pasta' : 'A 99 Noiva do Duque',
         'nome' : 'A 99 Noiva do Duque',
     },
+    {
+        'pasta' : 'The maid and vampire',
+        'nome' : 'The maid and vampire',
+    },
     
 ];
 
