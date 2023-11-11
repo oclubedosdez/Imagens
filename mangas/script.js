@@ -57,7 +57,10 @@ let mangas = [
         'pasta' : 'The maid and vampire',
         'nome' : 'The maid and vampire',
     },
-    
+    {
+        'pasta' : 'Tales of berseria',
+        'nome' : 'Tales of berseria',
+    },
 ];
 
  mangas.forEach((manga) => {
