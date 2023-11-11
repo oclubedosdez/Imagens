@@ -14,6 +14,10 @@ let mangas = [
         'nome' : 'Kumo desu ga, Nani ka',
     },
     {
+        'pasta' : 'My Childhood Friend Became an Obsessive Male Lead',
+        'nome' : 'My Childhood Friend Became an Obsessive Male Lead',
+    },
+    {
         'pasta' : 'Love Comedy Manga ni Haitteshimatta node, Oshi no Make Heroine wo Zenryoku de Shiawase ni Suru',
         'nome' : 'Love Comedy Manga ni Haitteshimatta node',
     },
@@ -46,9 +50,10 @@ let mangas = [
         'nome' : 'Bon Appétit!',
     },
     {
-        'pasta' : 'My Childhood Friend Became an Obsessive Male Lead',
-        'nome' : 'My Childhood Friend Became an Obsessive Male Lead',
+        'pasta' : 'A 99 Noiva do Duque',
+        'nome' : 'A 99 Noiva do Duque',
     },
+    
 ];
 
  mangas.forEach((manga) => {
